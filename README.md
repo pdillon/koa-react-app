@@ -22,6 +22,7 @@ Starter project that leverages create-react-app with a Koa service. 10 easy (and
 4. Add scripts section to package.json
 
         "scripts": {
+          "eject": "react-scripts eject",
           "start": "yarn build:client && yarn build:service && yarn start:service",
           "start:dev": "(yarn build:service && yarn start:service:dev) & yarn watch:client & yarn watch:service",
           "build:client": "node ./scripts/build.js",
