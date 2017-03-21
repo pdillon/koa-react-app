@@ -1,6 +1,6 @@
 # koa-react-app
 
-Starter project that leverages create-react-app with a Koa service.
+Starter project that leverages create-react-app with a Koa service. 10 easy (and tedious) steps!
 
 ## Setup
 
@@ -94,4 +94,4 @@ Starter project that leverages create-react-app with a Koa service.
 
         "proxy": "http://localhost:4000"
         
-10. 
+10. Run `yarn start:dev` or `yarn start`
